@@ -353,6 +353,11 @@
                 "when": "editorTextFocus && !editorReadonly"
             },
             {
+                "key": "ctrl+shift+/",
+                "command": "emacs.C-S-/",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
                 "key": "ctrl+/",
                 "command": "closeFindWidget",
                 "when": "editorFocus && findWidgetVisible"
@@ -381,6 +386,10 @@
                 "key": "ctrl+l",
                 "command": "emacs.C-l",
                 "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+g",
+                "command": "closeAccessibilityHelp"
             },
             {
                 "key": "ctrl+g",
@@ -600,6 +609,20 @@
                 "key": "alt+backspace",
                 "command": "deleteWordLeft",
                 "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+.",
+                "command": "editor.action.showHover",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "alt+.",
+                "command": "editor.action.goToDeclaration",
+                "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+            },
+            {
+                "key": "alt+,",
+                "command": "workbench.action.navigateBack"
             }
         ]
     },
