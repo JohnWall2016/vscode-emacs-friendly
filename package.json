@@ -388,8 +388,8 @@
                 "when": "editorTextFocus"
             },
             {
-                    "key": "ctrl+g",
-                    "command": ""
+                "key": "ctrl+g",
+                "command": ""
             },
             {
                 "key": "ctrl+g",
