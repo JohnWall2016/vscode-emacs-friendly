@@ -388,8 +388,8 @@
                 "when": "editorTextFocus"
             },
             {
-                "key": "ctrl+g",
-                "command": "closeAccessibilityHelp"
+                    "key": "ctrl+g",
+                    "command": ""
             },
             {
                 "key": "ctrl+g",
@@ -623,6 +623,22 @@
             {
                 "key": "alt+,",
                 "command": "workbench.action.navigateBack"
+            },
+            {
+                "key": "alt+j",
+                "command": "workbench.action.previousEditor"
+            },
+            {
+                "key": "alt+k",
+                "command": "workbench.action.nextEditor"
+            },
+            {
+                "key": "shift+alt+k",
+                "command": "workbench.action.togglePanel"
+            },
+            {
+                "key": "shift+alt+j",
+                "command": "workbench.action.toggleSidebarVisibility"
             }
         ]
     },
