@@ -639,6 +639,11 @@
             {
                 "key": "shift+alt+j",
                 "command": "workbench.action.toggleSidebarVisibility"
+            },
+            {
+                "key": "ctrl+alt+/",
+                "command": "editor.action.jumpToBracket",
+                "when": "editorTextFocus"
             }
         ]
     },
