@@ -22,6 +22,7 @@ export class Editor {
 			this.lastKill = null
 		})
 		vscode.workspace.onDidChangeTextDocument(event => {
+			vscode.commands.executeCommand("emacs.exitMarkMode")
 			if (!this.justDidKill) {
 				this.lastKill = null
 			}
