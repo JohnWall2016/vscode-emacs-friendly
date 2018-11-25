@@ -649,11 +649,11 @@
                 "command": "workbench.action.nextPanelView"
             },
             {
-                "key": "ctrl+alt+n",
+                "key": "ctrl+alt+p",
                 "command": "workbench.action.previousSideBarView"
             },
             {
-                "key": "ctrl+alt+p",
+                "key": "ctrl+alt+n",
                 "command": "workbench.action.nextSideBarView"
             },
             {
