@@ -633,12 +633,28 @@
                 "command": "workbench.action.nextEditor"
             },
             {
+                "key": "shift+alt+j",
+                "command": "workbench.action.toggleSidebarVisibility"
+            },
+            {
                 "key": "shift+alt+k",
                 "command": "workbench.action.togglePanel"
             },
             {
-                "key": "shift+alt+j",
-                "command": "workbench.action.toggleSidebarVisibility"
+                "key": "ctrl+alt+j",
+                "command": "workbench.action.previousPanelView"
+            },
+            {
+                "key": "ctrl+alt+k",
+                "command": "workbench.action.nextPanelView"
+            },
+            {
+                "key": "ctrl+alt+n",
+                "command": "workbench.action.previousSideBarView"
+            },
+            {
+                "key": "ctrl+alt+p",
+                "command": "workbench.action.nextSideBarView"
             },
             {
                 "key": "ctrl+alt+/",
