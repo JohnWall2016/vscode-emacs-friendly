@@ -1,0 +1,12 @@
+1. find "monaco-editor-hover-content" in <vscode app>/app/out/vs/workbench/workbench.main.js
+2. change workbench.main.js
+```javascript
+e.equals(9)&&i.hide()
+```
+to
+```javascript
+(e.equals(9)||(e.ctrlKey&&37==e.keyCode))&&i.hide()
+```
+3. save workbench.main.js
+
+MacOS: /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/out/vs/workbench/workbench.main.js
