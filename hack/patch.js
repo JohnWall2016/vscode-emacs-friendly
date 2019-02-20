@@ -17,13 +17,18 @@ switch (process.platform) {
 let vscode_orig = `${vscode}.orig`;
 
 if (fs.existsSync(vscode_orig)) {
-    console.log('Already patched!');
-    process.exit(-1);
+    if (process.argv[2] === '-f') {
+        fs.unlinkSync(vscode_orig);
+    } else {
+        console.log('Already patched!');
+        process.exit(-1);
+    }
 }
     
 fs.copyFileSync(vscode, vscode_orig);
 
 let content = fs.readFileSync(vscode).toString();
-content = content.replace(/e\.equals\(9\)&&i\.hide\(\)/g, '(e.equals(9)||(e.ctrlKey&&37==e.keyCode))&&i.hide()');
+//content = content.replace(/e\.equals\(9\)&&i\.hide\(\)/g, '(e.equals(9)||(e.ctrlKey&&37==e.keyCode))&&i.hide()');
+content = content.replace(/e\.equals\(9\)&&r\.hide\(\)/g, '(e.equals(9)||(e.ctrlKey&&37==e.keyCode))&&r.hide()');
 fs.writeFileSync(vscode, content);
 console.log('Patched!');
