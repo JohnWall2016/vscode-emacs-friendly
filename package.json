@@ -1,16 +1,16 @@
 {
-    "name": "vscode-emacs-friendly",
-    "displayName": "Emacs Friendly Keymap",
+    "name": "vscode-emacs-friendly-wj",
+    "displayName": "Emacs Friendly Keymap (wj)",
     "description": "Emacs keybindings and selection, friendly interaction with the system clipboard.",
     "icon": "emacs_pacifica.png",
     "version": "0.8.2",
-    "publisher": "lfs",
-    "homepage": "https://github.com/SebastianZaha/vscode-emacs-friendly",
+    "publisher": "wj",
+    "homepage": "https://github.com/JohnWall2016/vscode-emacs-friendly",
     "repository": {
         "type": "git",
-        "url": "https://github.com/SebastianZaha/vscode-emacs-friendly"
+        "url": "https://github.com/JohnWall2016/vscode-emacs-friendly"
     },
-    "bugs": "https://github.com/SebastianZaha/vscode-emacs-friendly/issues",
+    "bugs": "https://github.com/JohnWall2016/vscode-emacs-friendly/issues",
     "engines": {
         "vscode": "^1.11.0"
     },
