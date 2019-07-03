@@ -30,7 +30,7 @@ export class Operation {
                 this.editor.undo();
                 this.editor.setStatusBarMessage("Undo!");
             },
-            "C-S-/": () => {
+            "C-S_/": () => {
                 this.editor.redo();
                 this.editor.setStatusBarMessage("Redo!");
             },

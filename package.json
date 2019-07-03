@@ -3,7 +3,7 @@
     "displayName": "Emacs Friendly Keymap (wj)",
     "description": "Emacs keybindings and selection, friendly interaction with the system clipboard.",
     "icon": "emacs_pacifica.png",
-    "version": "0.8.2",
+    "version": "0.8.3",
     "publisher": "wj",
     "homepage": "https://github.com/JohnWall2016/vscode-emacs-friendly",
     "repository": {
@@ -354,7 +354,7 @@
             },
             {
                 "key": "ctrl+shift+/",
-                "command": "emacs.C-S-/",
+                "command": "emacs.C-S_/",
                 "when": "editorTextFocus && !editorReadonly"
             },
             {
